@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/styles.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="icon" 
+      type="image/png" 
+      href="./Assets/favicon.png">
+      <script src="./JS/scripts.js"></script>
+    <title>Sladjan Savic - WEB</title>
+</head>
+<body>
+    <div class="topnav" id="myTopnav">
+        <a href="#myTopnav" class="link active" onclick="activateLink()">Home</a>
+        <a href="#news" class="link" onclick="activateLink()">News</a>
+        <a href="#contact" class="link" onclick="activateLink()">Contact</a>
+        <a href="#about" class="link" onclick="activateLink()">About</a>
+        <a href="javascript:void(0);" class="icon" onclick="toggle()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+    <main class="main">
+        <div class="content">
+        <article class="top-content" id="news">
+            <header>
+                <a href="#"><h2>Some post</h2></a>
+            </header>
+            <footer>
+                <p class="post-info">Written by: Anonymous</p>
+            </footer>
+            <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+            </p>
+            <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+            </p>
+            <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+            </p>
+            <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+            </p>
+        </article>
+        <article class="bottom-content">
+            <header>
+                <a href="#"><h2>Another post</h2></a>
+            </header>
+            <footer>
+                <p class="post-info">Written by: Slađan Savić</p>
+            </footer>
+            <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+            </p>
+            <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+            </p>
+        </article>
+        <section class="hero" id="about">
+            <div class="hero-inner">
+                <h3>Meet me</h3>
+                <h4>I am software developer, mostly working on backend technologies, looking to expand into front end</h4>
+                <a href="https://example.com/" class="btn">Meaningful link</a>
+            </div>
+        </section>
+        <article class="container" id="contact">
+            <h3>Contact Me</h3>
+                <form action="">
+              
+                  <input type="text" id="fname" name="email" placeholder="Your email..">
+              
+                  <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+              
+                  <input type="submit" value="Submit">
+              
+                </form>
+
+        </article>
+        <article class="container">       
+        </article>
+    </div>
+    </a>
+    </main>
+    <button onclick="javascript:window.scrollTo(0,0);" class="btn-up">
+         <i class="fa fa-arrow-up"></i>
+    </button>
+    <footer class="footer">
+        <div class="rounded-social-buttons">
+            <a class="social-button facebook" href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a>
+            <a class="social-button twitter" href="https://www.twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a>
+            <a class="social-button linkedin" href="https://www.linkedin.com/" target="_blank"><i class="fa fa-linkedin"></i></a>
+            <a class="social-button youtube" href="https://www.youtube.com/" target="_blank"><i class="fa fa-youtube"></i></a>
+            <a class="social-button instagram" href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram"></i></a>
+        </div>
+        <p>Copyright &copy; 2020 <a href="#"> Slađan Savić </a>, ITEP Visoka Škola</p>
+    </footer>
+</body>
+</html>
